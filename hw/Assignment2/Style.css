@@ -1,0 +1,32 @@
+/*
+font-family: 'Pacifico', cursive;
+font-family:'Lobster', cursive;
+
+
+*/
+
+
+
+#maintitle {  color: #FFCC00;
+  width: 200px;
+  height: px;
+  border: 2px solid #FFCC00;
+  border-left: 2px solid #FFCC00;
+  padding: 20px;
+  padding-top: 50px;
+  margin: 20px;
+}
+a{color: brown;
+text-decoration: none}
+a:hover{text-decoration: underline;}
+a:visited {}
+  .intro{font-size: 20; color: black}
+
+.blue-bg{background:#1E90FF}
+.textm{font-family:'Lobster', cursive;}
+.Pacifico{font-family: 'Pacifico', cursive;}
+a {color: #5F9EA0; text-decoration: none}
+a:hover{text-decoration: none;font-size: 20px}
+.work{color:#FF1493}
+#Junior{color: #DAA520}
+.contact{font-size: 21; color:#8A2BE2}
