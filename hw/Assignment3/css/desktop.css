@@ -38,7 +38,7 @@ nav li {
   display: none;
  }
 .wide-img {
-  display: block;
+  display: block; width: 960px; margin-left: auto;margin-right: auto
  }
  /* Gallery layout */
  .gallery { width: 960px;}

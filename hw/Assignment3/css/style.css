@@ -28,8 +28,7 @@
 }
 .outerimage {
   background: url('../images/manu.jpeg');
-  background-size: cover;
-  height:auto;
+display: block; width: auto; height: 100%;
 
 }
 .innertext {
