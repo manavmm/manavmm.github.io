@@ -27,12 +27,12 @@
   display: block;
 }
 .outerimage {
-  background: url('../images/manu.jpeg');
+  background: url('../images/manu.jpeg') ; height: 500px
 }
 .innertext {
  font-size: 30px;
  color: white;
- padding: 100px;
+ padding: 50px;
  text-shadow: 1px 1px 3px #888;
 
 }
