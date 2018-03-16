@@ -6,7 +6,7 @@
 
 }
 
-.accordion li:hover .content {
+.dropmenu li:hover .content {
 
   padding: 25px;
   line-height: 20px;
@@ -15,7 +15,7 @@
   animation-duration: 1s;
   height: 300px; }
 
-  .accordion li span {
+  .dropmenu li span {
     cursor: nesw-resize;
     border-bottom: 2px solid #FF9900;}
 
