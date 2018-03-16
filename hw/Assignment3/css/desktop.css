@@ -34,11 +34,8 @@ nav li {
   padding-bottom: 15px;
   display: inline;
 }
-.square-img {
-  display: none;
- }
+
 .wide-img {
-  display: block; width: 960px; margin-left: auto;margin-right: auto
  }
  /* Gallery layout */
  .gallery { width: 960px;}
