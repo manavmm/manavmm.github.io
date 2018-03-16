@@ -6,11 +6,27 @@
 
 }
 
-.activate {
-  display: block;
-  padding: 10px;
-  color: white;
-  background: #FFCC00; }
+.accordion li:hover .content {
+
+  padding: 25px;
+  line-height: 20px;
+  border: 1px dotted #CCCCCC;
+  animation-name: opencontent;
+  animation-duration: 1s;
+  height: 300px; }
+
+  .accordion li span {
+    cursor: nesw-resize;
+    border-bottom: 2px solid #FF9900;}
+
+    @keyframes opencontent {
+       0%   {height: 1px;}
+       100% {
+         height: 300px;
+       overflow: visible;
+     }
+    }
+
 
 header h1 {
   height: 100px;
