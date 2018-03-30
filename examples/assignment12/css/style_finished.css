@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
 li,p,h1,h3,h2 {
 
 
-   font-family: 'Shadows Into Light', cursive;
+   font-family: 'Handlee', cursive;
 
 
 }
@@ -20,7 +20,7 @@ li img {
 li h2 {
  text-align: center;
  color: #FFFFFF;
- background-color: #FF9900;
+ background-color: #ff4800;
  height: 50px;
  margin: 0;
  padding-top: 10px;
@@ -59,5 +59,5 @@ button.previous {
 .survey {
  text-align: center;
 }
-.survey .yes {background-color:green; margin: 15px;}
-.survey .no {background-color:red;  margin: 15px; }
+.survey .yes {background-color: #90ff00; margin: 15px;}
+.survey .no {background-color:#ff3b00;  margin: 15px; }
