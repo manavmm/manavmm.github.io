@@ -1,7 +1,7 @@
 $(function(){
   //Hide stuff
-  $('#getStarted, #finish, #previous, .hide, #survey').hide();
-  //alert("hello");
+  $('#getStarted, #finish, #needed, #previous, .hide, #survey').hide();
+  alert("hello");
   $('#title').on('mouseover',function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
     $('#getStarted').show();
@@ -10,6 +10,23 @@ $(function(){
   $('#title').on('mouseleave',function(){
     $('.fa-arrow-alt-circle-left').toggleClass('fa-arrow-alt-circle-right');
   });
+//Ingredients
+  $('#ingredients').on('mouseover',function(){
+    $('.fa-info').toggleClass('fa-info-circle');
+      $('#needed').show();
+
+  });
+
+  $('#ingredients').on('mouseleave',function(){
+    $('.fa-info').toggleClass('fa-info-circle');
+  });
+
+
+
+
+
+
+
   // show our slides when clicked.
   $('#getStarted').on('click', function(){
     $('.hide').show();

@@ -21,6 +21,11 @@
             $('.fa-caret-square-right').toggleClass('fa-caret-square-left').toggleClass('fa-caret-square-right');
             });
 
+            $('.ingredients').on('mouseover', function(){
+$('.needed').show();
+              $('.fa-info-circle').toggleClass('.fa-info').toggleClass('.fa-info-cirle');
+              });
+
           $('.getStarted').on('click',function(){
             $(this).hide();
             $('.howto, .buttonContainer').show();
@@ -112,15 +117,10 @@
     <h1 class="title">How to cook Ramen noodles <i class="fas fa-caret-square-right"></i></h1>
 
     <p> Ramen noodles are the saviour of many college students and is loved by all. It is very easy and quick to make and tastes delicious! If you do not know how to cook Ramen noodles, do not worry! We will teach you how to make Ramen noodles. </p>
-<h2> Ingredients</h2>
-<ul>
-  <li>Ramen</li>
-  <li>Water</li>
-  <li> Toppings</li>
-  n4jgn4
-  jfj.
-</ul>
+<h2 class="ingredients"> Ingredients  <i class="fas fa-info-circle"> </i></h2>
+<p class="needed"> Instant Ramen Noodles <br> Water <br> flavor <br> Toppings </p>
 
+</ul>
 
 
     <button class="getStarted">Let's Get Started! <i class="fas fa-utensils"></i></button>
