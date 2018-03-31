@@ -49,6 +49,9 @@ button.previous {
  border: 2px solid #FF9900;
  display: block;
 }
+
+.ramen {width: 100%; display: block;}
+
 .howto, .buttonContainer, .titleContainer {
  width:600px;
  margin-left: auto;

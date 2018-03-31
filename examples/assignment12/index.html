@@ -27,6 +27,12 @@ $('.needed').show();
               $('.fa-info-circle').toggleClass('.fa-info').toggleClass('.fa-info-cirle');
               });
 
+              $('.ramen').on('mouseover', function(){
+  $('.ramen').hide();
+
+                });
+
+
           $('.getStarted').on('click',function(){
             $(this).hide();
             $('.howto, .buttonContainer').show();
@@ -121,10 +127,10 @@ $('.needed').show();
 <h2 class="ingredients"> Ingredients  <i class="fas fa-info-circle"> </i></h2>
 <p class="needed"> Instant Ramen Noodles <br> Water <br> flavor <br> Toppings </p>
 
-</ul>
+<img class="ramen" src="images/ramen.jpeg" alt="">
 
 
-    <button class="getStarted">Let's Get Started! <i class="fas fa-utensils"></i></button>
+    <button class="getStarted">Lets Get Started! <i class="fas fa-utensils"></i></button>
     </div>
 <ol class="howto">
   <li class="active"><h2>Step 1:Bring the water to a boil  </h2>
