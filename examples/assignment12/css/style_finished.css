@@ -50,7 +50,11 @@ button.previous {
  display: block;
 }
 
-.ramen {width: 100; height:100 ;  align-items: center;}
+.ramen {width:600px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+padding: 0  }
 
 .howto, .buttonContainer, .titleContainer {
  width:600px;
