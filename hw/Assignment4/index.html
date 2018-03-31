@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>How to guide</title>
+    <title>How to cook Ramen</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style_finished.css">
@@ -12,10 +12,7 @@
           $('.howto').hide();
           $('.buttonContainer').hide();
           $('.needed').hide()
-          //Hide the previous and finish button
-          // $('.previous').hide();
-          // $('.finish').hide();
-          // $('.getStarted').hide();
+
           $('.getStarted, .finish, .previous').hide();
           $('.title').on('mouseover', function(){
             $('.getStarted').show();
@@ -38,11 +35,10 @@ $('.needed').show();
             $('.howto, .buttonContainer').show();
           });
           $( '.next' ).on('click', function() {
-          //First, we need to keep track of the current slide and the next slide. We achieve this by storing our elements in variables.
+
           var currentStep = $('li.active');
-          // next() Documentation https://api.jquery.com/next/
           var nextStep =  $('li.active').next();
-          // toggleClass() Documentation https://api.jquery.com/toggleClass/
+
           currentStep.toggleClass('active');
           nextStep.toggleClass('active');
           //Position based selectors:
