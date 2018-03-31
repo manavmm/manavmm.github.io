@@ -50,7 +50,7 @@ button.previous {
  display: block;
 }
 
-.ramen {width: 600; height: 400}
+.ramen {width: 600; height: 400; display: block;}
 
 .howto, .buttonContainer, .titleContainer {
  width:600px;
