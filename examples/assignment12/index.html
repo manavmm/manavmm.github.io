@@ -90,7 +90,7 @@ $('.needed').show();
           });
             $( '.finish' ).on('click', function() {
               // Add html to the howto ol
-              $('.howto').html('<li class="active survey"><h2>Did you like these instructions?</h2><button class="yes">Yes</button><button class="no">No</button></li>');
+              $('.howto').html('<li class="active survey"><h2> Were the instructions helpful?</h2><button class="yes">Yes</button><button class="no">No</button></li>');
               // Hide the previous and next buttons
               $('.buttonContainer').hide();
             });
@@ -98,12 +98,12 @@ $('.needed').show();
             $(document).on('click', '.no', function(){
               $('h2').css({ 'background-color' : 'red' });
               $('li').css({ 'border-color' : 'red' });
-              $('body').css({'background' : 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTex8cEctKfmeWGxSi0Rer-57fiFkdj28ug7f_LefscGZgS-ynejg)'});
+              $('body').css({'background' : 'url(https://emojipedia-us.s3.amazonaws.com/thumbs/320/apple/129/worried-face_1f61f.png)'});
             });
             $(document).on('click', '.yes', function(){
               $('h2').css({ 'background-color' : 'green' });
               $('li').css({ 'border-color' : 'green' });
-              $('body').css({'background' : 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS77K6OToUovMOoDZWcfIpunO-fvOZsIQc1Y-7RWMb8h36gIq-v)'});
+              $('body').css({'background' : 'url(https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/129/grinning-face-with-smiling-eyes_1f601.png)'});
             });
     });
     </script>
