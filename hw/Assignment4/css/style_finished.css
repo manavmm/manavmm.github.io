@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Handlee');
+@import url('https://fonts.googleapis.com/css?family=Baloo');
 li,p,h1,h3,h2 {
 
 
-   font-family: 'Handlee', cursive;
-
+font-family: 'Baloo', cursive;
 
 }
 li {
@@ -43,7 +42,7 @@ button.previous {
 }
 .getStarted {
  width: 100%;
- background-color: green;
+ background-color: FBCF0B;
 }
 .active {
  border: 2px solid #FF9900;
