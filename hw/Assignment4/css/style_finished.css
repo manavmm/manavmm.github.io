@@ -49,10 +49,10 @@ button.previous {
  display: block;
 }
 
-.ramen {width: 600px; height: 50px;
+.ramen {width: 600px; height: 100px;
 margin-left: auto;
 margin-right: auto;
-display: block;
+display: ;
 padding: 0  }
 
 .howto, .buttonContainer, .titleContainer {
