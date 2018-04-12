@@ -3,9 +3,7 @@
 
 
 
- body { background-color: #1277AA;
 
-}
 
  h1 {
    font-size: 64px;
@@ -71,3 +69,5 @@ h2 {
       -ms-transform: rotate(5.0deg);
     transform: rotate(7.5deg);
   display: inline-block;}
+
+  body{ background-color: #1277AA}
