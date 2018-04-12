@@ -3,8 +3,8 @@
 
 
 
-body {
-  background-color: #1277AA;
+ body { background-color: #1277AA;
+
 }
 
  h1 {
@@ -31,7 +31,7 @@ h2 {
   margin-top: 3rem;
   color: #FFFFFF;
   font-size: 24px;
-  font-family: font-family: 'Montserrat', sans-serif;
+  font-family:
   text-align: justify;
 }
 .banner {
