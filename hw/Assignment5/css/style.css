@@ -3,18 +3,6 @@
 
 
 
-
-
-
-
-h2 {
-  font-size: 55px;
-  width: 680px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  color: #FFFFFF
-}
 .att {
   display: block;
   width: 300px;
@@ -70,6 +58,15 @@ h2 {
     font-size:64px;
     width: 680px;
     height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF
+  }
+
+  h2 {
+    font-size: 55px;
+    width: 680px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     color: #FFFFFF
